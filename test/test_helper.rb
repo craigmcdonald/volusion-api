@@ -1,10 +1,10 @@
 require 'rubygems'
-require 'test/unit'
+require 'minitest/autorun'
 require 'volusion'
 require 'fakeweb'
 
 
-class Test::Unit::TestCase
+class MiniTest::Test
 
 
   def load_fixture(name)

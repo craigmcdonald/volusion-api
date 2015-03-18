@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class ConnectionTest < Test::Unit::TestCase
+class ConnectionTest < MiniTest::Test
 
   def setup
     @store_url = "http://example.volusion.com"
